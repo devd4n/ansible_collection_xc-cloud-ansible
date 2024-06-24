@@ -1,9 +1,9 @@
-namespace: yoctoalex
+namespace: devd4n
 name: xc_cloud_modules
 version: 0.0.6
 readme: README.md
 authors:
-  - Alex Shemyakin
+  - Daniel Schmitt
 description: Collection to manage XC Cloud
 license: GPL-3.0-only
 tags:
@@ -12,9 +12,9 @@ tags:
   - f5_distributed_cloud_services
   - f5_distributed_cloud
   - f5_cloud
-repository: https://github.com/yoctoalex/xc-cloud-ansible
-documentation: https://github.com/yoctoalex/xc-cloud-ansible
-homepage: https://github.com/yoctoalex/xc-cloud-ansible
-issues: https://github.com/yoctoalex/xc-cloud-ansible/issues
+repository: https://github.com/devd4n/ansible_collection_xc-cloud-ansible
+documentation: https://github.com/devd4n/ansible_collection_xc-cloud-ansible
+homepage: https://github.com/devd4n/ansible_collection_xc-cloud-ansible
+issues: https://github.com/devd4n/ansible_collection_xc-cloud-ansible/issues
 dependencies:
   ansible.netcommon: ">=2.0.0"
