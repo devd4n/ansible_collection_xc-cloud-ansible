@@ -9,6 +9,8 @@ broken due to experimentation or refactoring**.
 
 The F5 XC Cloud Modules for Ansible are freely provided to the open source community for automating F5 XC Cloud configurations.
 
+Thanks to https://github.com/yoctoalex which initialy writes the foundation of this collection.
+
 
 Installing the Build
 ----------------------------
@@ -17,14 +19,14 @@ Installing the Build
 
     # Approach 1
     # To install build from the repository
-    git clone git@github.com:yoctoalex/xc-cloud-ansible.git
+    git clone git@github.com:devd4n/ansible_collection_xc-cloud-ansible.git
     cd ./xc-cloud-ansible
     ansible-galaxy collection build --force
-    ansible-galaxy collection install yoctoalex-xc_cloud_modules-0.0.6.tar.gz 
+    ansible-galaxy collection install devd4n-xc_cloud_modules-0.0.6.tar.gz 
 
     # Approach 2
     # To install from the Ansible Galaxy
-    ansible-galaxy collection install yoctoalex.xc_cloud_modules 
+    ansible-galaxy collection install devd4n.xc_cloud_modules 
 ```
 
 Usage Example
@@ -33,7 +35,7 @@ Usage Example
 - name: Create Virtual Kubernetes
   hosts: webservers
   collections:
-    - yoctoalex.xc_cloud_modules
+    - devd4n.xc_cloud_modules
   connection: local
 
   environment:
