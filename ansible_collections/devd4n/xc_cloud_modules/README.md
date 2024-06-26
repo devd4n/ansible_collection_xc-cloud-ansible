@@ -22,7 +22,7 @@ Installing the Build
     git clone git@github.com:devd4n/ansible_collection_xc-cloud-ansible.git
     cd ./xc-cloud-ansible
     ansible-galaxy collection build --force
-    ansible-galaxy collection install devd4n-xc_cloud_modules-0.0.6.tar.gz 
+    ansible-galaxy collection install devd4n-xc_cloud_modules-0.0.7.tar.gz 
 
     # Approach 2
     # To install from the Ansible Galaxy
